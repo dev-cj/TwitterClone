@@ -1,0 +1,85 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "Name": "dan brown",
+      "Email": "danbrown@gmail.com",
+      "Password": "DanBrown",
+      "id": 2
+    },
+    {
+      "Name": "firstname lastname",
+      "Email": "first@gmail.com",
+      "Password": "lastfirst",
+      "id": 3
+    },
+    {
+      "Name": "first last",
+      "Email": "kalkdjf",
+      "Password": "dkjfkajdfj",
+      "id": 4
+    },
+    {
+      "Name": "adkjfhk kdfka",
+      "Email": "kdsfkkdjfk",
+      "Password": "kdjfkjkajf",
+      "id": 5
+    }
+  ],
+  "comments": [
+    {
+      "title": "DaVinci Code",
+      "body": "Dan Brown",
+      "id": 1
+    },
+    {
+      "title": "Worth Dying For",
+      "body": "Lee Child",
+      "id": 2
+    },
+    {
+      "title": "Eleven Minutes",
+      "body": "Paulo Coelho",
+      "id": 3
+    },
+    {
+      "title": "Veronica Decides To Die",
+      "body": "Paulo Coelho",
+      "id": 4
+    },
+    {
+      "title": "hello",
+      "body": "world",
+      "id": 5
+    },
+    {
+      "title": "dan",
+      "body": "dan",
+      "id": 6
+    },
+    {
+      "title": "brown",
+      "body": "dan",
+      "id": 7
+    },
+    {
+      "title": "temp",
+      "body": "tag",
+      "id": 8
+    },
+    {
+      "title": "",
+      "body": "",
+      "id": 9
+    }
+  ],
+  "profile": {
+    "Name": "dan brown",
+    "Email": "danbrown@gmail.com",
+    "Password": "DanBrown"
+  }
+}
