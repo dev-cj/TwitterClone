@@ -99,6 +99,8 @@ $(".loginBtn").click(function (e){
             tweetBox();
             setCookie();
             updateName();
+            showLogOut();
+
         } else {
             $(".form").clear();
             console.log("login Failed");
@@ -185,9 +187,23 @@ function checkUser(){
         `<nav class="navbar navbar-expand-md navbar-dark bg-light">
         <a class="navbar-brand title" id="userName"href="#">Hello Guest User!</a>
     </nav>`
-    )}
+    );
+    hideLogOut();
+    }
 };
 function updateName(){
     thisIsUser = getCookie();
     $("#userName").replaceWith(`<a class="navbar-brand title" id="userName" href="#">Welcome back! ${thisIsUser}</a>`);
 };
+
+$("#logOut").click(function(){
+    Cookies.remove('name');
+    location.reload(true);
+
+});
+function hideLogOut(){
+    $("#logOut").css("display","none");
+}
+function showLogOut(){
+    $("#logOut").css("display","flex");
+}
