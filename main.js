@@ -7,7 +7,7 @@ jQuery.fn.clear = function()
     $form.find('input:checkbox, input:radio').removeAttr('checked');
     return this;
 };
-//Register User
+//Register User change localHost here
 $(".registerBtn").click(function(){
     var rEmail = $("#registerEmail").val();
     var rPass = $("#registerPassword").val();
@@ -72,7 +72,7 @@ $('.form').find('input, textarea').on('keyup blur focus', function (e) {
 });
 var hello;
 var storedName;
-//login
+//login change localHost here
 $(".loginBtn").click(function (e){
     var emailId = $("#login-email-id").val();
     var password = $("#login-password").val();
@@ -153,7 +153,7 @@ function tweetBox() {
 function createPost() {
     
 }
-//Post tweet to json db on click
+//Post tweet to json db on click, change localHost here
 $(".submitTweeet").click(function(e){
     var tweeetTitle = $("#inputLarge").val();
     var tweeetBody = $("#exampleTextarea").val();
