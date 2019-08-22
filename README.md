@@ -10,5 +10,5 @@ json-server --watch db.json
 ```
 
 * Then change localhost Get & Post urls in main.js follow comments for reference 
-* to login use email: danbrown@gmail.com
+* for login use email: danbrown@gmail.com
 * password: DanBrown
