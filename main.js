@@ -18,7 +18,7 @@ $(".registerBtn").click(function(){
     } else if ((rPass.length) <8){
         alert("Password should atleast 8 characters in length..")
     } else {
-        $.post("http://localhost:4500/posts",{
+        $.post("http://localhost:3000/posts",{
             "Name": rFirstName +" "+ rLastName,
             "Email":rEmail,
             "Password":rPass,
@@ -79,7 +79,7 @@ $(".loginBtn").click(function (e){
     e.preventDefault();
     $.get({
         async: true,
-        url:'http://localhost:4500/posts',
+        url:'http://localhost:3000/posts',
         method: 'GET',
         dataType: 'jsonp',
         success: function(response){
@@ -120,7 +120,7 @@ function getCookie(){
 function feed(){
     $.get({
         async: true,
-        url:'http://localhost:4500/comments',
+        url:'http://localhost:3000/comments',
         method: 'GET',
         dataType: 'jsonp',
         success: function(response){
